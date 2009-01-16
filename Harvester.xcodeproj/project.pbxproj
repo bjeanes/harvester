@@ -9,6 +9,45 @@
 /* Begin PBXBuildFile section */
 		4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */; };
 		4DE3BE140D8651D900ECA448 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE3BE130D8651D900ECA448 /* MacRuby.framework */; };
+		6C246D7B0F2078E80014B2F7 /* harvest.gemspec in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D350F2078E80014B2F7 /* harvest.gemspec */; };
+		6C246D7C0F2078E80014B2F7 /* HISTORY in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D360F2078E80014B2F7 /* HISTORY */; };
+		6C246D7D0F2078E80014B2F7 /* base.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D390F2078E80014B2F7 /* base.rb */; };
+		6C246D7E0F2078E80014B2F7 /* harvest_resource.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D3A0F2078E80014B2F7 /* harvest_resource.rb */; };
+		6C246D7F0F2078E80014B2F7 /* active_resource_inheritable_headers.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D3C0F2078E80014B2F7 /* active_resource_inheritable_headers.rb */; };
+		6C246D800F2078E80014B2F7 /* hash_ext.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D3D0F2078E80014B2F7 /* hash_ext.rb */; };
+		6C246D810F2078E80014B2F7 /* toggleable.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D3E0F2078E80014B2F7 /* toggleable.rb */; };
+		6C246D820F2078E80014B2F7 /* client.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D400F2078E80014B2F7 /* client.rb */; };
+		6C246D830F2078E80014B2F7 /* entry.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D410F2078E80014B2F7 /* entry.rb */; };
+		6C246D840F2078E80014B2F7 /* expense.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D420F2078E80014B2F7 /* expense.rb */; };
+		6C246D850F2078E80014B2F7 /* expense_category.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D430F2078E80014B2F7 /* expense_category.rb */; };
+		6C246D860F2078E80014B2F7 /* person.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D440F2078E80014B2F7 /* person.rb */; };
+		6C246D870F2078E80014B2F7 /* project.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D450F2078E80014B2F7 /* project.rb */; };
+		6C246D880F2078E80014B2F7 /* task.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D460F2078E80014B2F7 /* task.rb */; };
+		6C246D890F2078E80014B2F7 /* task_assignment.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D470F2078E80014B2F7 /* task_assignment.rb */; };
+		6C246D8A0F2078E80014B2F7 /* user_assignment.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D480F2078E80014B2F7 /* user_assignment.rb */; };
+		6C246D8B0F2078E80014B2F7 /* harvest.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D490F2078E80014B2F7 /* harvest.rb */; };
+		6C246D8C0F2078E80014B2F7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D4A0F2078E80014B2F7 /* LICENSE */; };
+		6C246D8D0F2078E80014B2F7 /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D4B0F2078E80014B2F7 /* Rakefile */; };
+		6C246D8E0F2078E80014B2F7 /* README.rdoc in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D4C0F2078E80014B2F7 /* README.rdoc */; };
+		6C246D8F0F2078E80014B2F7 /* client_integration.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D4F0F2078E80014B2F7 /* client_integration.rb */; };
+		6C246D900F2078E80014B2F7 /* client_teardown.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D500F2078E80014B2F7 /* client_teardown.rb */; };
+		6C246D910F2078E80014B2F7 /* expense_category_integration.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D510F2078E80014B2F7 /* expense_category_integration.rb */; };
+		6C246D920F2078E80014B2F7 /* expense_category_teardown.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D520F2078E80014B2F7 /* expense_category_teardown.rb */; };
+		6C246D930F2078E80014B2F7 /* harvest_integration_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D530F2078E80014B2F7 /* harvest_integration_test.rb */; };
+		6C246D940F2078E80014B2F7 /* project_integration.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D540F2078E80014B2F7 /* project_integration.rb */; };
+		6C246D950F2078E80014B2F7 /* project_teardown.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D550F2078E80014B2F7 /* project_teardown.rb */; };
+		6C246D960F2078E80014B2F7 /* task_integration.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D560F2078E80014B2F7 /* task_integration.rb */; };
+		6C246D970F2078E80014B2F7 /* task_teardown.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D570F2078E80014B2F7 /* task_teardown.rb */; };
+		6C246D980F2078E80014B2F7 /* test_helper.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D580F2078E80014B2F7 /* test_helper.rb */; };
+		6C246D990F2078E80014B2F7 /* base_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D5A0F2078E80014B2F7 /* base_test.rb */; };
+		6C246D9A0F2078E80014B2F7 /* client_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D5C0F2078E80014B2F7 /* client_test.rb */; };
+		6C246D9B0F2078E80014B2F7 /* expense_category_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D5D0F2078E80014B2F7 /* expense_category_test.rb */; };
+		6C246D9C0F2078E80014B2F7 /* expense_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D5E0F2078E80014B2F7 /* expense_test.rb */; };
+		6C246D9D0F2078E80014B2F7 /* person_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D5F0F2078E80014B2F7 /* person_test.rb */; };
+		6C246D9E0F2078E80014B2F7 /* project_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D600F2078E80014B2F7 /* project_test.rb */; };
+		6C246D9F0F2078E80014B2F7 /* task_assignment_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D610F2078E80014B2F7 /* task_assignment_test.rb */; };
+		6C246DA00F2078E80014B2F7 /* task_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D620F2078E80014B2F7 /* task_test.rb */; };
+		6C246DA10F2078E80014B2F7 /* user_assignment_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D630F2078E80014B2F7 /* user_assignment_test.rb */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -25,6 +64,45 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
+		6C246D350F2078E80014B2F7 /* harvest.gemspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = harvest.gemspec; sourceTree = "<group>"; };
+		6C246D360F2078E80014B2F7 /* HISTORY */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HISTORY; sourceTree = "<group>"; };
+		6C246D390F2078E80014B2F7 /* base.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = base.rb; sourceTree = "<group>"; };
+		6C246D3A0F2078E80014B2F7 /* harvest_resource.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = harvest_resource.rb; sourceTree = "<group>"; };
+		6C246D3C0F2078E80014B2F7 /* active_resource_inheritable_headers.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = active_resource_inheritable_headers.rb; sourceTree = "<group>"; };
+		6C246D3D0F2078E80014B2F7 /* hash_ext.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = hash_ext.rb; sourceTree = "<group>"; };
+		6C246D3E0F2078E80014B2F7 /* toggleable.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = toggleable.rb; sourceTree = "<group>"; };
+		6C246D400F2078E80014B2F7 /* client.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = client.rb; sourceTree = "<group>"; };
+		6C246D410F2078E80014B2F7 /* entry.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = entry.rb; sourceTree = "<group>"; };
+		6C246D420F2078E80014B2F7 /* expense.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = expense.rb; sourceTree = "<group>"; };
+		6C246D430F2078E80014B2F7 /* expense_category.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = expense_category.rb; sourceTree = "<group>"; };
+		6C246D440F2078E80014B2F7 /* person.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = person.rb; sourceTree = "<group>"; };
+		6C246D450F2078E80014B2F7 /* project.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = project.rb; sourceTree = "<group>"; };
+		6C246D460F2078E80014B2F7 /* task.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = task.rb; sourceTree = "<group>"; };
+		6C246D470F2078E80014B2F7 /* task_assignment.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = task_assignment.rb; sourceTree = "<group>"; };
+		6C246D480F2078E80014B2F7 /* user_assignment.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = user_assignment.rb; sourceTree = "<group>"; };
+		6C246D490F2078E80014B2F7 /* harvest.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = harvest.rb; sourceTree = "<group>"; };
+		6C246D4A0F2078E80014B2F7 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6C246D4B0F2078E80014B2F7 /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		6C246D4C0F2078E80014B2F7 /* README.rdoc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.rdoc; sourceTree = "<group>"; };
+		6C246D4F0F2078E80014B2F7 /* client_integration.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = client_integration.rb; sourceTree = "<group>"; };
+		6C246D500F2078E80014B2F7 /* client_teardown.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = client_teardown.rb; sourceTree = "<group>"; };
+		6C246D510F2078E80014B2F7 /* expense_category_integration.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = expense_category_integration.rb; sourceTree = "<group>"; };
+		6C246D520F2078E80014B2F7 /* expense_category_teardown.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = expense_category_teardown.rb; sourceTree = "<group>"; };
+		6C246D530F2078E80014B2F7 /* harvest_integration_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = harvest_integration_test.rb; sourceTree = "<group>"; };
+		6C246D540F2078E80014B2F7 /* project_integration.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = project_integration.rb; sourceTree = "<group>"; };
+		6C246D550F2078E80014B2F7 /* project_teardown.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = project_teardown.rb; sourceTree = "<group>"; };
+		6C246D560F2078E80014B2F7 /* task_integration.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = task_integration.rb; sourceTree = "<group>"; };
+		6C246D570F2078E80014B2F7 /* task_teardown.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = task_teardown.rb; sourceTree = "<group>"; };
+		6C246D580F2078E80014B2F7 /* test_helper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = test_helper.rb; sourceTree = "<group>"; };
+		6C246D5A0F2078E80014B2F7 /* base_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = base_test.rb; sourceTree = "<group>"; };
+		6C246D5C0F2078E80014B2F7 /* client_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = client_test.rb; sourceTree = "<group>"; };
+		6C246D5D0F2078E80014B2F7 /* expense_category_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = expense_category_test.rb; sourceTree = "<group>"; };
+		6C246D5E0F2078E80014B2F7 /* expense_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = expense_test.rb; sourceTree = "<group>"; };
+		6C246D5F0F2078E80014B2F7 /* person_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = person_test.rb; sourceTree = "<group>"; };
+		6C246D600F2078E80014B2F7 /* project_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = project_test.rb; sourceTree = "<group>"; };
+		6C246D610F2078E80014B2F7 /* task_assignment_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = task_assignment_test.rb; sourceTree = "<group>"; };
+		6C246D620F2078E80014B2F7 /* task_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = task_test.rb; sourceTree = "<group>"; };
+		6C246D630F2078E80014B2F7 /* user_assignment_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = user_assignment_test.rb; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Harvester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harvester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,6 +169,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				6C246D0C0F2078E80014B2F7 /* harvest-api */,
 				4DE339F60D74FCDD00ADB6EE /* rb_main.rb */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
@@ -114,6 +193,116 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C246D0C0F2078E80014B2F7 /* harvest-api */ = {
+			isa = PBXGroup;
+			children = (
+				6C246D350F2078E80014B2F7 /* harvest.gemspec */,
+				6C246D360F2078E80014B2F7 /* HISTORY */,
+				6C246D370F2078E80014B2F7 /* lib */,
+				6C246D4A0F2078E80014B2F7 /* LICENSE */,
+				6C246D4B0F2078E80014B2F7 /* Rakefile */,
+				6C246D4C0F2078E80014B2F7 /* README.rdoc */,
+				6C246D4D0F2078E80014B2F7 /* test */,
+			);
+			path = "harvest-api";
+			sourceTree = "<group>";
+		};
+		6C246D370F2078E80014B2F7 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				6C246D380F2078E80014B2F7 /* harvest */,
+				6C246D490F2078E80014B2F7 /* harvest.rb */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		6C246D380F2078E80014B2F7 /* harvest */ = {
+			isa = PBXGroup;
+			children = (
+				6C246D390F2078E80014B2F7 /* base.rb */,
+				6C246D3A0F2078E80014B2F7 /* harvest_resource.rb */,
+				6C246D3B0F2078E80014B2F7 /* plugins */,
+				6C246D3F0F2078E80014B2F7 /* resources */,
+			);
+			path = harvest;
+			sourceTree = "<group>";
+		};
+		6C246D3B0F2078E80014B2F7 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				6C246D3C0F2078E80014B2F7 /* active_resource_inheritable_headers.rb */,
+				6C246D3D0F2078E80014B2F7 /* hash_ext.rb */,
+				6C246D3E0F2078E80014B2F7 /* toggleable.rb */,
+			);
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		6C246D3F0F2078E80014B2F7 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C246D400F2078E80014B2F7 /* client.rb */,
+				6C246D410F2078E80014B2F7 /* entry.rb */,
+				6C246D420F2078E80014B2F7 /* expense.rb */,
+				6C246D430F2078E80014B2F7 /* expense_category.rb */,
+				6C246D440F2078E80014B2F7 /* person.rb */,
+				6C246D450F2078E80014B2F7 /* project.rb */,
+				6C246D460F2078E80014B2F7 /* task.rb */,
+				6C246D470F2078E80014B2F7 /* task_assignment.rb */,
+				6C246D480F2078E80014B2F7 /* user_assignment.rb */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6C246D4D0F2078E80014B2F7 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				6C246D4E0F2078E80014B2F7 /* integration */,
+				6C246D580F2078E80014B2F7 /* test_helper.rb */,
+				6C246D590F2078E80014B2F7 /* unit */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		6C246D4E0F2078E80014B2F7 /* integration */ = {
+			isa = PBXGroup;
+			children = (
+				6C246D4F0F2078E80014B2F7 /* client_integration.rb */,
+				6C246D500F2078E80014B2F7 /* client_teardown.rb */,
+				6C246D510F2078E80014B2F7 /* expense_category_integration.rb */,
+				6C246D520F2078E80014B2F7 /* expense_category_teardown.rb */,
+				6C246D530F2078E80014B2F7 /* harvest_integration_test.rb */,
+				6C246D540F2078E80014B2F7 /* project_integration.rb */,
+				6C246D550F2078E80014B2F7 /* project_teardown.rb */,
+				6C246D560F2078E80014B2F7 /* task_integration.rb */,
+				6C246D570F2078E80014B2F7 /* task_teardown.rb */,
+			);
+			path = integration;
+			sourceTree = "<group>";
+		};
+		6C246D590F2078E80014B2F7 /* unit */ = {
+			isa = PBXGroup;
+			children = (
+				6C246D5A0F2078E80014B2F7 /* base_test.rb */,
+				6C246D5B0F2078E80014B2F7 /* resources */,
+			);
+			path = unit;
+			sourceTree = "<group>";
+		};
+		6C246D5B0F2078E80014B2F7 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C246D5C0F2078E80014B2F7 /* client_test.rb */,
+				6C246D5D0F2078E80014B2F7 /* expense_category_test.rb */,
+				6C246D5E0F2078E80014B2F7 /* expense_test.rb */,
+				6C246D5F0F2078E80014B2F7 /* person_test.rb */,
+				6C246D600F2078E80014B2F7 /* project_test.rb */,
+				6C246D610F2078E80014B2F7 /* task_assignment_test.rb */,
+				6C246D620F2078E80014B2F7 /* task_test.rb */,
+				6C246D630F2078E80014B2F7 /* user_assignment_test.rb */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +351,45 @@
 				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
+				6C246D7B0F2078E80014B2F7 /* harvest.gemspec in Resources */,
+				6C246D7C0F2078E80014B2F7 /* HISTORY in Resources */,
+				6C246D7D0F2078E80014B2F7 /* base.rb in Resources */,
+				6C246D7E0F2078E80014B2F7 /* harvest_resource.rb in Resources */,
+				6C246D7F0F2078E80014B2F7 /* active_resource_inheritable_headers.rb in Resources */,
+				6C246D800F2078E80014B2F7 /* hash_ext.rb in Resources */,
+				6C246D810F2078E80014B2F7 /* toggleable.rb in Resources */,
+				6C246D820F2078E80014B2F7 /* client.rb in Resources */,
+				6C246D830F2078E80014B2F7 /* entry.rb in Resources */,
+				6C246D840F2078E80014B2F7 /* expense.rb in Resources */,
+				6C246D850F2078E80014B2F7 /* expense_category.rb in Resources */,
+				6C246D860F2078E80014B2F7 /* person.rb in Resources */,
+				6C246D870F2078E80014B2F7 /* project.rb in Resources */,
+				6C246D880F2078E80014B2F7 /* task.rb in Resources */,
+				6C246D890F2078E80014B2F7 /* task_assignment.rb in Resources */,
+				6C246D8A0F2078E80014B2F7 /* user_assignment.rb in Resources */,
+				6C246D8B0F2078E80014B2F7 /* harvest.rb in Resources */,
+				6C246D8C0F2078E80014B2F7 /* LICENSE in Resources */,
+				6C246D8D0F2078E80014B2F7 /* Rakefile in Resources */,
+				6C246D8E0F2078E80014B2F7 /* README.rdoc in Resources */,
+				6C246D8F0F2078E80014B2F7 /* client_integration.rb in Resources */,
+				6C246D900F2078E80014B2F7 /* client_teardown.rb in Resources */,
+				6C246D910F2078E80014B2F7 /* expense_category_integration.rb in Resources */,
+				6C246D920F2078E80014B2F7 /* expense_category_teardown.rb in Resources */,
+				6C246D930F2078E80014B2F7 /* harvest_integration_test.rb in Resources */,
+				6C246D940F2078E80014B2F7 /* project_integration.rb in Resources */,
+				6C246D950F2078E80014B2F7 /* project_teardown.rb in Resources */,
+				6C246D960F2078E80014B2F7 /* task_integration.rb in Resources */,
+				6C246D970F2078E80014B2F7 /* task_teardown.rb in Resources */,
+				6C246D980F2078E80014B2F7 /* test_helper.rb in Resources */,
+				6C246D990F2078E80014B2F7 /* base_test.rb in Resources */,
+				6C246D9A0F2078E80014B2F7 /* client_test.rb in Resources */,
+				6C246D9B0F2078E80014B2F7 /* expense_category_test.rb in Resources */,
+				6C246D9C0F2078E80014B2F7 /* expense_test.rb in Resources */,
+				6C246D9D0F2078E80014B2F7 /* person_test.rb in Resources */,
+				6C246D9E0F2078E80014B2F7 /* project_test.rb in Resources */,
+				6C246D9F0F2078E80014B2F7 /* task_assignment_test.rb in Resources */,
+				6C246DA00F2078E80014B2F7 /* task_test.rb in Resources */,
+				6C246DA10F2078E80014B2F7 /* user_assignment_test.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

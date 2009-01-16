@@ -10,6 +10,8 @@
 # do that here too.
 framework 'Cocoa'
 
+require 'harvest'
+
 # Loading all the Ruby project files.
 dir_path = NSBundle.mainBundle.resourcePath.fileSystemRepresentation
 Dir.entries(dir_path).each do |path|

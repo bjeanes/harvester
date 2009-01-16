@@ -48,6 +48,34 @@
 		6C246D9F0F2078E80014B2F7 /* task_assignment_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D610F2078E80014B2F7 /* task_assignment_test.rb */; };
 		6C246DA00F2078E80014B2F7 /* task_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D620F2078E80014B2F7 /* task_test.rb */; };
 		6C246DA10F2078E80014B2F7 /* user_assignment_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246D630F2078E80014B2F7 /* user_assignment_test.rb */; };
+		6C246DFE0F207B7F0014B2F7 /* CHANGELOG in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DDC0F207B7F0014B2F7 /* CHANGELOG */; };
+		6C246DFF0F207B7F0014B2F7 /* base.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DDF0F207B7F0014B2F7 /* base.rb */; };
+		6C246E000F207B7F0014B2F7 /* connection.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DE00F207B7F0014B2F7 /* connection.rb */; };
+		6C246E010F207B7F0014B2F7 /* custom_methods.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DE10F207B7F0014B2F7 /* custom_methods.rb */; };
+		6C246E020F207B7F0014B2F7 /* json_format.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DE30F207B7F0014B2F7 /* json_format.rb */; };
+		6C246E030F207B7F0014B2F7 /* xml_format.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DE40F207B7F0014B2F7 /* xml_format.rb */; };
+		6C246E040F207B7F0014B2F7 /* formats.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DE50F207B7F0014B2F7 /* formats.rb */; };
+		6C246E050F207B7F0014B2F7 /* http_mock.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DE60F207B7F0014B2F7 /* http_mock.rb */; };
+		6C246E060F207B7F0014B2F7 /* validations.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DE70F207B7F0014B2F7 /* validations.rb */; };
+		6C246E070F207B7F0014B2F7 /* version.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DE80F207B7F0014B2F7 /* version.rb */; };
+		6C246E080F207B7F0014B2F7 /* active_resource.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DE90F207B7F0014B2F7 /* active_resource.rb */; };
+		6C246E090F207B7F0014B2F7 /* activeresource.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DEA0F207B7F0014B2F7 /* activeresource.rb */; };
+		6C246E0A0F207B7F0014B2F7 /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DEB0F207B7F0014B2F7 /* Rakefile */; };
+		6C246E0B0F207B7F0014B2F7 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DEC0F207B7F0014B2F7 /* README */; };
+		6C246E0C0F207B7F0014B2F7 /* abstract_unit.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DEE0F207B7F0014B2F7 /* abstract_unit.rb */; };
+		6C246E0D0F207B7F0014B2F7 /* authorization_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DEF0F207B7F0014B2F7 /* authorization_test.rb */; };
+		6C246E0E0F207B7F0014B2F7 /* custom_methods_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DF10F207B7F0014B2F7 /* custom_methods_test.rb */; };
+		6C246E0F0F207B7F0014B2F7 /* equality_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DF20F207B7F0014B2F7 /* equality_test.rb */; };
+		6C246E100F207B7F0014B2F7 /* load_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DF30F207B7F0014B2F7 /* load_test.rb */; };
+		6C246E110F207B7F0014B2F7 /* base_errors_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DF40F207B7F0014B2F7 /* base_errors_test.rb */; };
+		6C246E120F207B7F0014B2F7 /* base_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DF50F207B7F0014B2F7 /* base_test.rb */; };
+		6C246E130F207B7F0014B2F7 /* connection_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DF60F207B7F0014B2F7 /* connection_test.rb */; };
+		6C246E140F207B7F0014B2F7 /* beast.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DF80F207B7F0014B2F7 /* beast.rb */; };
+		6C246E150F207B7F0014B2F7 /* customer.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DF90F207B7F0014B2F7 /* customer.rb */; };
+		6C246E160F207B7F0014B2F7 /* person.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DFA0F207B7F0014B2F7 /* person.rb */; };
+		6C246E170F207B7F0014B2F7 /* street_address.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DFB0F207B7F0014B2F7 /* street_address.rb */; };
+		6C246E180F207B7F0014B2F7 /* format_test.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DFC0F207B7F0014B2F7 /* format_test.rb */; };
+		6C246E190F207B7F0014B2F7 /* setter_trap.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6C246DFD0F207B7F0014B2F7 /* setter_trap.rb */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -103,6 +131,34 @@
 		6C246D610F2078E80014B2F7 /* task_assignment_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = task_assignment_test.rb; sourceTree = "<group>"; };
 		6C246D620F2078E80014B2F7 /* task_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = task_test.rb; sourceTree = "<group>"; };
 		6C246D630F2078E80014B2F7 /* user_assignment_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = user_assignment_test.rb; sourceTree = "<group>"; };
+		6C246DDC0F207B7F0014B2F7 /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
+		6C246DDF0F207B7F0014B2F7 /* base.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = base.rb; sourceTree = "<group>"; };
+		6C246DE00F207B7F0014B2F7 /* connection.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = connection.rb; sourceTree = "<group>"; };
+		6C246DE10F207B7F0014B2F7 /* custom_methods.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = custom_methods.rb; sourceTree = "<group>"; };
+		6C246DE30F207B7F0014B2F7 /* json_format.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = json_format.rb; sourceTree = "<group>"; };
+		6C246DE40F207B7F0014B2F7 /* xml_format.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = xml_format.rb; sourceTree = "<group>"; };
+		6C246DE50F207B7F0014B2F7 /* formats.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = formats.rb; sourceTree = "<group>"; };
+		6C246DE60F207B7F0014B2F7 /* http_mock.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = http_mock.rb; sourceTree = "<group>"; };
+		6C246DE70F207B7F0014B2F7 /* validations.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = validations.rb; sourceTree = "<group>"; };
+		6C246DE80F207B7F0014B2F7 /* version.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = version.rb; sourceTree = "<group>"; };
+		6C246DE90F207B7F0014B2F7 /* active_resource.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = active_resource.rb; sourceTree = "<group>"; };
+		6C246DEA0F207B7F0014B2F7 /* activeresource.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = activeresource.rb; sourceTree = "<group>"; };
+		6C246DEB0F207B7F0014B2F7 /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		6C246DEC0F207B7F0014B2F7 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		6C246DEE0F207B7F0014B2F7 /* abstract_unit.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = abstract_unit.rb; sourceTree = "<group>"; };
+		6C246DEF0F207B7F0014B2F7 /* authorization_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = authorization_test.rb; sourceTree = "<group>"; };
+		6C246DF10F207B7F0014B2F7 /* custom_methods_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = custom_methods_test.rb; sourceTree = "<group>"; };
+		6C246DF20F207B7F0014B2F7 /* equality_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = equality_test.rb; sourceTree = "<group>"; };
+		6C246DF30F207B7F0014B2F7 /* load_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = load_test.rb; sourceTree = "<group>"; };
+		6C246DF40F207B7F0014B2F7 /* base_errors_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = base_errors_test.rb; sourceTree = "<group>"; };
+		6C246DF50F207B7F0014B2F7 /* base_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = base_test.rb; sourceTree = "<group>"; };
+		6C246DF60F207B7F0014B2F7 /* connection_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = connection_test.rb; sourceTree = "<group>"; };
+		6C246DF80F207B7F0014B2F7 /* beast.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = beast.rb; sourceTree = "<group>"; };
+		6C246DF90F207B7F0014B2F7 /* customer.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = customer.rb; sourceTree = "<group>"; };
+		6C246DFA0F207B7F0014B2F7 /* person.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = person.rb; sourceTree = "<group>"; };
+		6C246DFB0F207B7F0014B2F7 /* street_address.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = street_address.rb; sourceTree = "<group>"; };
+		6C246DFC0F207B7F0014B2F7 /* format_test.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = format_test.rb; sourceTree = "<group>"; };
+		6C246DFD0F207B7F0014B2F7 /* setter_trap.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = setter_trap.rb; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Harvester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harvester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -169,6 +225,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				6C246DDB0F207B7F0014B2F7 /* activeresource-2.2.2 */,
 				6C246D0C0F2078E80014B2F7 /* harvest-api */,
 				4DE339F60D74FCDD00ADB6EE /* rb_main.rb */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
@@ -306,6 +363,90 @@
 			path = resources;
 			sourceTree = "<group>";
 		};
+		6C246DDB0F207B7F0014B2F7 /* activeresource-2.2.2 */ = {
+			isa = PBXGroup;
+			children = (
+				6C246DDC0F207B7F0014B2F7 /* CHANGELOG */,
+				6C246DDD0F207B7F0014B2F7 /* lib */,
+				6C246DEB0F207B7F0014B2F7 /* Rakefile */,
+				6C246DEC0F207B7F0014B2F7 /* README */,
+				6C246DED0F207B7F0014B2F7 /* test */,
+			);
+			name = "activeresource-2.2.2";
+			path = "vendor/activeresource-2.2.2";
+			sourceTree = "<group>";
+		};
+		6C246DDD0F207B7F0014B2F7 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				6C246DDE0F207B7F0014B2F7 /* active_resource */,
+				6C246DE90F207B7F0014B2F7 /* active_resource.rb */,
+				6C246DEA0F207B7F0014B2F7 /* activeresource.rb */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		6C246DDE0F207B7F0014B2F7 /* active_resource */ = {
+			isa = PBXGroup;
+			children = (
+				6C246DDF0F207B7F0014B2F7 /* base.rb */,
+				6C246DE00F207B7F0014B2F7 /* connection.rb */,
+				6C246DE10F207B7F0014B2F7 /* custom_methods.rb */,
+				6C246DE20F207B7F0014B2F7 /* formats */,
+				6C246DE50F207B7F0014B2F7 /* formats.rb */,
+				6C246DE60F207B7F0014B2F7 /* http_mock.rb */,
+				6C246DE70F207B7F0014B2F7 /* validations.rb */,
+				6C246DE80F207B7F0014B2F7 /* version.rb */,
+			);
+			path = active_resource;
+			sourceTree = "<group>";
+		};
+		6C246DE20F207B7F0014B2F7 /* formats */ = {
+			isa = PBXGroup;
+			children = (
+				6C246DE30F207B7F0014B2F7 /* json_format.rb */,
+				6C246DE40F207B7F0014B2F7 /* xml_format.rb */,
+			);
+			path = formats;
+			sourceTree = "<group>";
+		};
+		6C246DED0F207B7F0014B2F7 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				6C246DEE0F207B7F0014B2F7 /* abstract_unit.rb */,
+				6C246DEF0F207B7F0014B2F7 /* authorization_test.rb */,
+				6C246DF00F207B7F0014B2F7 /* base */,
+				6C246DF40F207B7F0014B2F7 /* base_errors_test.rb */,
+				6C246DF50F207B7F0014B2F7 /* base_test.rb */,
+				6C246DF60F207B7F0014B2F7 /* connection_test.rb */,
+				6C246DF70F207B7F0014B2F7 /* fixtures */,
+				6C246DFC0F207B7F0014B2F7 /* format_test.rb */,
+				6C246DFD0F207B7F0014B2F7 /* setter_trap.rb */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		6C246DF00F207B7F0014B2F7 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				6C246DF10F207B7F0014B2F7 /* custom_methods_test.rb */,
+				6C246DF20F207B7F0014B2F7 /* equality_test.rb */,
+				6C246DF30F207B7F0014B2F7 /* load_test.rb */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		6C246DF70F207B7F0014B2F7 /* fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				6C246DF80F207B7F0014B2F7 /* beast.rb */,
+				6C246DF90F207B7F0014B2F7 /* customer.rb */,
+				6C246DFA0F207B7F0014B2F7 /* person.rb */,
+				6C246DFB0F207B7F0014B2F7 /* street_address.rb */,
+			);
+			path = fixtures;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -391,6 +532,34 @@
 				6C246D9F0F2078E80014B2F7 /* task_assignment_test.rb in Resources */,
 				6C246DA00F2078E80014B2F7 /* task_test.rb in Resources */,
 				6C246DA10F2078E80014B2F7 /* user_assignment_test.rb in Resources */,
+				6C246DFE0F207B7F0014B2F7 /* CHANGELOG in Resources */,
+				6C246DFF0F207B7F0014B2F7 /* base.rb in Resources */,
+				6C246E000F207B7F0014B2F7 /* connection.rb in Resources */,
+				6C246E010F207B7F0014B2F7 /* custom_methods.rb in Resources */,
+				6C246E020F207B7F0014B2F7 /* json_format.rb in Resources */,
+				6C246E030F207B7F0014B2F7 /* xml_format.rb in Resources */,
+				6C246E040F207B7F0014B2F7 /* formats.rb in Resources */,
+				6C246E050F207B7F0014B2F7 /* http_mock.rb in Resources */,
+				6C246E060F207B7F0014B2F7 /* validations.rb in Resources */,
+				6C246E070F207B7F0014B2F7 /* version.rb in Resources */,
+				6C246E080F207B7F0014B2F7 /* active_resource.rb in Resources */,
+				6C246E090F207B7F0014B2F7 /* activeresource.rb in Resources */,
+				6C246E0A0F207B7F0014B2F7 /* Rakefile in Resources */,
+				6C246E0B0F207B7F0014B2F7 /* README in Resources */,
+				6C246E0C0F207B7F0014B2F7 /* abstract_unit.rb in Resources */,
+				6C246E0D0F207B7F0014B2F7 /* authorization_test.rb in Resources */,
+				6C246E0E0F207B7F0014B2F7 /* custom_methods_test.rb in Resources */,
+				6C246E0F0F207B7F0014B2F7 /* equality_test.rb in Resources */,
+				6C246E100F207B7F0014B2F7 /* load_test.rb in Resources */,
+				6C246E110F207B7F0014B2F7 /* base_errors_test.rb in Resources */,
+				6C246E120F207B7F0014B2F7 /* base_test.rb in Resources */,
+				6C246E130F207B7F0014B2F7 /* connection_test.rb in Resources */,
+				6C246E140F207B7F0014B2F7 /* beast.rb in Resources */,
+				6C246E150F207B7F0014B2F7 /* customer.rb in Resources */,
+				6C246E160F207B7F0014B2F7 /* person.rb in Resources */,
+				6C246E170F207B7F0014B2F7 /* street_address.rb in Resources */,
+				6C246E180F207B7F0014B2F7 /* format_test.rb in Resources */,
+				6C246E190F207B7F0014B2F7 /* setter_trap.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

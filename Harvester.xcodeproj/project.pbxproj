@@ -206,7 +206,8 @@
 				6C246D4C0F2078E80014B2F7 /* README.rdoc */,
 				6C246D4D0F2078E80014B2F7 /* test */,
 			);
-			path = "harvest-api";
+			name = "harvest-api";
+			path = "vendor/harvest-api";
 			sourceTree = "<group>";
 		};
 		6C246D370F2078E80014B2F7 /* lib */ = {

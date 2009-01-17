@@ -9,6 +9,7 @@
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<integer value="29"/>
+			<integer value="376"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -752,32 +753,32 @@
 				</object>
 				<string key="NSName">_NSMainMenu</string>
 			</object>
-			<object class="NSCustomObject" id="312150456">
+			<object class="NSCustomObject" id="137212530">
 				<string key="NSClassName">AppController</string>
 			</object>
-			<object class="NSMenu" id="515721909">
+			<object class="NSMenu" id="122295090">
 				<string key="NSTitle"/>
 				<object class="NSMutableArray" key="NSMenuItems">
 					<bool key="EncodedWithXMLCoder">YES</bool>
-					<object class="NSMenuItem" id="1043858263">
-						<reference key="NSMenu" ref="515721909"/>
+					<object class="NSMenuItem" id="827171416">
+						<reference key="NSMenu" ref="122295090"/>
 						<string key="NSTitle">Item 1</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="35465992"/>
 						<reference key="NSMixedImage" ref="394471734"/>
 					</object>
-					<object class="NSMenuItem" id="1057117445">
-						<reference key="NSMenu" ref="515721909"/>
+					<object class="NSMenuItem" id="198782361">
+						<reference key="NSMenu" ref="122295090"/>
 						<string key="NSTitle">Item 2</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="35465992"/>
 						<reference key="NSMixedImage" ref="394471734"/>
 					</object>
-					<object class="NSMenuItem" id="628553710">
-						<reference key="NSMenu" ref="515721909"/>
-						<string key="NSTitle">Item 3</string>
+					<object class="NSMenuItem" id="541519340">
+						<reference key="NSMenu" ref="122295090"/>
+						<string key="NSTitle">Quit</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="35465992"/>
@@ -1104,10 +1105,18 @@
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">statusMenu</string>
-						<reference key="source" ref="312150456"/>
-						<reference key="destination" ref="515721909"/>
+						<reference key="source" ref="137212530"/>
+						<reference key="destination" ref="122295090"/>
 					</object>
 					<int key="connectionID">380</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">terminate:</string>
+						<reference key="source" ref="1050"/>
+						<reference key="destination" ref="541519340"/>
+					</object>
+					<int key="connectionID">381</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -1712,34 +1721,35 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">375</int>
-						<reference key="object" ref="312150456"/>
+						<reference key="object" ref="137212530"/>
 						<reference key="parent" ref="1049"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">376</int>
-						<reference key="object" ref="515721909"/>
+						<reference key="object" ref="122295090"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="1043858263"/>
-							<reference ref="1057117445"/>
-							<reference ref="628553710"/>
+							<reference ref="827171416"/>
+							<reference ref="198782361"/>
+							<reference ref="541519340"/>
 						</object>
 						<reference key="parent" ref="1049"/>
+						<string key="objectName">StatusBarMenu</string>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">377</int>
-						<reference key="object" ref="1043858263"/>
-						<reference key="parent" ref="515721909"/>
+						<reference key="object" ref="827171416"/>
+						<reference key="parent" ref="122295090"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">378</int>
-						<reference key="object" ref="1057117445"/>
-						<reference key="parent" ref="515721909"/>
+						<reference key="object" ref="198782361"/>
+						<reference key="parent" ref="122295090"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">379</int>
-						<reference key="object" ref="628553710"/>
-						<reference key="parent" ref="515721909"/>
+						<reference key="object" ref="541519340"/>
+						<reference key="parent" ref="122295090"/>
 					</object>
 				</object>
 			</object>
@@ -1885,6 +1895,7 @@
 					<string>354.IBPluginDependency</string>
 					<string>354.ImportedFromIB2</string>
 					<string>375.IBPluginDependency</string>
+					<string>376.IBEditorWindowLastContentRect</string>
 					<string>376.IBPluginDependency</string>
 					<string>377.IBPluginDependency</string>
 					<string>378.IBPluginDependency</string>
@@ -2035,7 +2046,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>{{525, 802}, {197, 73}}</string>
-					<string>{{21, 941}, {478, 20}}</string>
+					<string>{{323, 931}, {478, 20}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>{74, 862}</string>
@@ -2064,6 +2075,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>{{593, 761}, {99, 63}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -2124,7 +2136,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">380</int>
+			<int key="maxID">381</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

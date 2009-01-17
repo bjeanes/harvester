@@ -10,7 +10,7 @@ require 'osx/cocoa'
 
 class AppController < OSX::NSObject
 	attr_accessor :popupWindow
-	
+		
 	def initialize
 		@windowVisible = false
 	end
@@ -24,7 +24,6 @@ class AppController < OSX::NSObject
 		@status_item.target = self
 		@status_item.action = :action_test
 		@status_item.title = "Harvester"
-#		@status_item.menu = @statusMenu
 		@status_item.toolTip = "Click to log times"
 		@status_item.highlightMode = true
 	end

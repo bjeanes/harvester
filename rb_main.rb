@@ -6,12 +6,10 @@
 # Copyright Mocra 2009. All rights reserved.
 #
 
-# Loading the Cocoa framework. If you need to load more frameworks, you can
-# do that here too.
 framework 'Cocoa'
 framework 'Security'
 
-# Loading all the Ruby project files.
+# Loading all the project files.
 dir_path = NSBundle.mainBundle.resourcePath.fileSystemRepresentation
 Dir.entries(dir_path).each do |path|
   extension =  path.split('.')[-1] rescue ''

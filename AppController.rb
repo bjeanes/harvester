@@ -6,9 +6,7 @@
 #  Copyright (c) 2009 Mocra. All rights reserved.
 #
 
-require 'osx/cocoa'
-
-class AppController < OSX::NSObject
+class AppController < NSObject
   attr_accessor :popupWindow
     
   def initialize
